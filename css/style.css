@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+#logo{
+    width: 10em;
+    height: 10em;
+    padding: auto 0;
+}
+.titulo{
+    display: inline-block;
+    position: absolute;
+    padding: 50px;
+    margin: 5px;
+}
+.header{
+    background-color:#68a6dd;
+}
+.main{
+    justify-content: center;
+}
+.main .titulo-main {
+    text-align: center;
+    font-size: 27px;
+    padding: 20px;
+    margin: 30px;
+    position: relative;
+}
+
+
+#extadm, th, td{
+    border: solid black;
+}
+#extadm, #extasis{
+    background-color: rgb(193, 181, 181)  ;
+    border-collapse: collapse;
+    text-align: center;
+    width: 350px;
+}
+
+th, td{
+    padding: 10px;
+}
+
+th{
+    background-color: rgb(15, 85, 150);
+    color:beige;
+}
+
+tr:hover{
+    background-color: rgb(92, 90, 90);
+}
+.container{
+    background-color: #68a6dd;
+    display: inline-block;
+    padding: 15px;
+    position: relative;
+    margin-left: 200px;
+}
+.container2{
+    background-color: #68a6dd;
+    display: inline-block;
+    padding: 15px;
+    position: relative;
+    margin-left: 200px;
+}
